@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+  min-height: 100vh;
+}
+
+/* reusable button */
+.button {
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: linear-gradient(45deg,#ff416c,#ff4b2b);
+  color: white;
+  font-weight: 600;
+}

@@ -1,0 +1,48 @@
+.from-container {
+  width: 35rem;
+  margin: 8rem auto;
+  padding: 3.5rem;
+  background: white;
+
+  border: 0.1rem solid #ddd;
+  border-radius: 1rem;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  input {
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #ccc;
+  }
+
+  button {
+    background: #0095f6;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: none;
+  }
+
+  p {
+    margin-top: 1.5rem;
+  }
+    .error {
+    color: red;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.toggleAuthform {
+  color: #0095f6;
+  font-weight: 600;
+}
