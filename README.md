@@ -5,7 +5,7 @@ Users can register, authenticate securely, create posts, follow other users, and
 
 🚀 Live Demo
 
-🔗 Live Application: https://your-render-link.com
+🔗 Live Application: https://insta-clone-va4x.onrender.com
 
 🔗 Frontend Repository: https://github.com/vivekchanne06-web/Insta-Clone/Frontend
 
