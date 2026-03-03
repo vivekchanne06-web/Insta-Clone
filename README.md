@@ -1,156 +1,134 @@
-📸 Insta Clone – Full Stack Social Media Application
+# 🍎 Mac Inspired OS
 
-A full-stack Instagram-inspired social media platform built using React, Node.js, Express, and MongoDB.
-Users can register, authenticate securely, create posts, follow other users, and interact through a personalized social feed.
+A fully interactive **MacOS-inspired web interface** built using **React + Vite**.
+This project recreates the look and feel of macOS inside the browser with draggable windows, a dock, apps, and smooth UI interactions.
 
-🚀 Live Demo
+🌐 **Live Demo:** https://mac-inspired-os.vercel.app/
+💻 **GitHub Repo:** https://github.com/vivekchanne06-web/Mac-Inspired-OS
 
-🔗 Live Application: https://insta-clone-va4x.onrender.com
+---
 
-🔗 Frontend Repository: https://github.com/vivekchanne06-web/Insta-Clone/Frontend
+## ✨ Features
 
-🔗 Backend Repository: https://github.com/vivekchanne06-web/Insta-Clone/Backend
+* 🖥️ MacOS-style desktop UI
+* 🚀 Interactive Dock with animated icons
+* 🪟 Draggable & openable windows
+* 🧮 Calculator App
+* 📝 Notes App
+* 📄 PDF Viewer
+* 🕒 Live Clock
+* 🎵 Spotify Integration
+* 📧 Mail & LinkedIn Quick Links
+* 🎨 Custom Wallpapers
+* ⚡ Fast build with Vite
 
-✨ Features
-👤 Authentication
+---
 
-User Registration & Login
+## 🛠️ Tech Stack
 
-JWT-based Authentication
+* **React.js**
+* **Vite**
+* **SCSS**
+* **JavaScript (ES6+)**
+* **Vercel** (Deployment)
 
-Secure Password Handling
+---
 
-Protected Routes
+## 📁 Project Structure
 
-Logout Functionality
-
-🖼️ Post Management
-
-Create Posts with Image Upload
-
-View Global & Personalized Feed
-
-Image Upload using Multer
-
-Cloud/Image Storage Support
-
-👥 Follow System
-
-Follow / Unfollow Users
-
-View Following List
-
-Personalized Feed
-
-User Profile Viewing
-
-📱 User Interface
-
-Instagram-inspired UI
-
-Sidebar Navigation
-
-Feed-based Layout
-
-Clean & Modern UX
-
-🛠️ Tech Stack
-🔹 Frontend
-
-React.js
-
-Context API
-
-React Router
-
-Axios
-
-SCSS
-
-🔹 Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-JSON Web Token (JWT)
-
-Multer
-
-🔹 Deployment
-
-Render
-
-📂 Project Structure
-insta-clone/
+```
+Mac-Inspired-OS/
 │
-├── frontend/
+├── public/
+│   └── icons/
+│
+├── src/
 │   ├── components/
-│   ├── features/
-│   ├── pages/
-│   ├── context/
-│   └── AppRoutes.jsx
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
 │
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-│
-└── README.md
+├── package.json
+└── vite.config.js
+```
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone (https://github.com/vivekchanne06-web/Insta-Clone)
-cd insta-clone
-2️⃣ Backend Setup
-cd backend
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/vivekchanne06-web/Mac-Inspired-OS.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd Mac-Inspired-OS
+```
+
+### 3️⃣ Install dependencies
+
+```bash
 npm install
+```
 
-Create .env file:
+### 4️⃣ Start development server
 
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret_key
+```bash
+npm run dev
+```
 
-Run Backend:
+App will run on:
 
-npm start
-3️⃣ Frontend Setup
-cd frontend
-npm install
-npm start
-🔐 Environment Variables
-Variable	Description
-PORT	Backend Server Port
-MONGO_URI	MongoDB Connection String
-JWT_SECRET	JWT Secret Key
+```
+http://localhost:5173
+```
 
-🎯 Learning Outcomes
+---
 
-Designed and built RESTful APIs
+## 📦 Build for Production
 
-Implemented Authentication & Authorization
+```bash
+npm run build
+```
 
-Managed Global State using Context API
+To preview production build:
 
-Handled File Uploads with Multer
+```bash
+npm run preview
+```
 
-Built Follow/Unfollow Logic
+---
 
-Deployed Full Stack Application
+## 🌍 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy:
+
+1. Push code to GitHub
+2. Import repository into Vercel
+3. Deploy automatically
+
+---
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Vivek
-Full Stack Developer (Learning & Building 🚀)
+**Vivek Channe**
+GitHub: https://github.com/vivekchanne06-web
+LinkedIn: https://www.linkedin.com/in/vivek-channe
 
-🔗 GitHub: https://github.com/vivekchanne06-web
+---
 
-🔗 LinkedIn: www.linkedin.com/in/vivek-channe
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
