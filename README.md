@@ -3,7 +3,7 @@
 A fully interactive **MacOS-inspired web interface** built using **React + Vite**.
 This project recreates the look and feel of macOS inside the browser with draggable windows, a dock, apps, and smooth UI interactions.
 
-🌐 **Live Demo:** https://mac-inspired-os.vercel.app/
+🌐 **Live Demo:** https://insta-clone-va4x.onrender.com/
 💻 **GitHub Repo:** https://github.com/vivekchanne06-web/Mac-Inspired-OS
 
 ---
